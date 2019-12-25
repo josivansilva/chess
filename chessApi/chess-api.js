@@ -5,8 +5,6 @@ const cors = require('cors');
 const app = express();
 const port = 3000;
 
-let books = [];
-
 let chessboard;
 
 app.use(cors());
@@ -15,26 +13,15 @@ app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-app.post('/book', (req, res) => {
-    const book = req.body;
-
-    // Output the book to the console for debugging
-    console.log(book);
-    books.push(book);
-});
-
-app.get('/books', (req, res) => {
-    res.json(books);
-});
-
 app.get('/chess/:position', (req, res) => {
     const position = req.params.position;
 
-    console.log('position: ' + position);
+    if (!position.match(/^(?:[0-9]+[A-Z]|[A-Z]+[0-9])[A-Z0-9]*$/)) {
+        res.status(400).send('Invalid Chess Position.');
+    }
 
     let rows = 8;
     let columns = 8;
-
     let positionArr = new Array();
 
     outer:
@@ -61,23 +48,6 @@ app.get('/chess/:position', (req, res) => {
     res.contentType('application/json');
     res.send(JSON.stringify(positionArr));
 
-    // Sending 404 when not found something is a good practice
-    //res.status(404).send('Book not found');
-});
-
-app.delete('/book/:isbn', (req, res) => {
-    // Reading isbn from the URL
-    const isbn = req.params.isbn;
-
-    // Remove item from the books array
-    books = books.filter(i => {
-        if (i.isbn !== isbn) {
-            return true;
-        }
-        return false;
-    });
-
-    res.send('Book is deleted');
 });
 
 function initChessboard (){
@@ -96,4 +66,4 @@ function initChessboard (){
 
 initChessboard();
 
-app.listen(port, () => console.log(`Hello world app listening on port ${port}!`));
+app.listen(port, () => console.log(`Chess API app listening on port ${port}!`));
