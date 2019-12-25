@@ -7,11 +7,12 @@ class Square extends React.Component {
       <td
         className="square"
         onClick={() => {this.props.onClick()} }
+        id={this.props.value}
       >
-        {this.props.value}
+       {this.props.value}
       </td>
     );
-  }  
+  } 
 
 }
 

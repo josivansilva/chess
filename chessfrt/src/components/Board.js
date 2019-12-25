@@ -6,16 +6,10 @@ class Board extends React.Component {
     constructor(props) {
       super(props);
       this.state = {
-        squares: Array(64).fill(null),
-        color: "white",
+        squares: Array(64).fill(null)        
       };
     }
-    update = () => {
-      this.setState({
-        color: "yellow"
-      })
-    }
-  
+      
     renderSquare(i) {
       return (
         <Square
@@ -29,8 +23,24 @@ class Board extends React.Component {
       const squares = this.state.squares.slice();
       squares[i] = i;
       this.setState({squares: squares});
+      this.changeCellColor(i);      
     }
 
+    changeCellColor(id) {
+      this.changeCellDefaultColor();
+      setTimeout(function() {
+          document.getElementById(id).style.backgroundColor = "yellow";
+      }, 100);            
+    }
+    
+    changeCellDefaultColor () {
+      let cellArr = document.getElementsByTagName("td");
+      for (let i = 0; i < cellArr.length; i++) {
+        let cell = cellArr[i];
+        cell.style.backgroundColor = "white";
+      }
+    }
+  
     render() {
       //const status = 'Next player: X';
   
