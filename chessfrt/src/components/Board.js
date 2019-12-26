@@ -11,25 +11,27 @@ class Board extends React.Component {
       };
     }
 
-    findPositionsById(id) {
-      fetch('http://localhost:3000/chess/' + id)
+    findPositionsBySelectedPosition(selectedPosition) {
+      fetch('http://localhost:3000/chess/' + selectedPosition)
       .then(res => res.json())
       .then((data) => {
         this.setState({ positions: data })
-        this.setPositionsInSquares();    
+        this.setPositionsInSquares(selectedPosition); 
       })
       .catch(console.log)
     }
 
-    setPositionsInSquares() {
+    setPositionsInSquares(selectedPosition) {
       const squares = this.state.squares.slice();
+      squares[selectedPosition] = selectedPosition;
       for (let i = 0; i < this.state.positions.length; i++) {
         let position = this.state.positions[i];          
         squares[position] = position;
         console.log ('squares[position] ' + squares[position]);
       }
-      this.setState({squares: squares});      
+      this.setState({squares: squares});
     }
+
     renderSquare(i) {
       return (
         <Square
@@ -43,15 +45,15 @@ class Board extends React.Component {
       const squares = this.state.squares.slice();
       squares[i] = i;
       this.setState({squares: squares});
-      this.findPositionsById(i);      
-      //this.changeCellColor(i);      
+      this.findPositionsBySelectedPosition(i);      
+      this.changeCellColor(i);
     }
 
     changeCellColor(id) {
       this.changeCellDefaultColor();
       setTimeout(function() {
           document.getElementById(id).style.backgroundColor = "yellow";
-      }, 2000);            
+      }, 50);            
     }
     
     changeCellDefaultColor () {
