@@ -6,10 +6,30 @@ class Board extends React.Component {
     constructor(props) {
       super(props);
       this.state = {
-        squares: Array(64).fill(null)        
+        squares: Array(64).fill(null),
+        positions: []        
       };
     }
-      
+
+    findPositionsById(id) {
+      fetch('http://localhost:3000/chess/' + id)
+      .then(res => res.json())
+      .then((data) => {
+        this.setState({ positions: data })
+        this.setPositionsInSquares();    
+      })
+      .catch(console.log)
+    }
+
+    setPositionsInSquares() {
+      const squares = this.state.squares.slice();
+      for (let i = 0; i < this.state.positions.length; i++) {
+        let position = this.state.positions[i];          
+        squares[position] = position;
+        console.log ('squares[position] ' + squares[position]);
+      }
+      this.setState({squares: squares});      
+    }
     renderSquare(i) {
       return (
         <Square
@@ -23,14 +43,15 @@ class Board extends React.Component {
       const squares = this.state.squares.slice();
       squares[i] = i;
       this.setState({squares: squares});
-      this.changeCellColor(i);      
+      this.findPositionsById(i);      
+      //this.changeCellColor(i);      
     }
 
     changeCellColor(id) {
       this.changeCellDefaultColor();
       setTimeout(function() {
           document.getElementById(id).style.backgroundColor = "yellow";
-      }, 100);            
+      }, 2000);            
     }
     
     changeCellDefaultColor () {
