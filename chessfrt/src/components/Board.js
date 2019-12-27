@@ -75,7 +75,7 @@ class Board extends React.Component {
     render() {
       return (
 
-        <div className="container center-div">
+        <div className="left-div">
           <div className="row">
             <div className="col">
               <button className="btn btn-primary button-play-it" type="button" onClick={this.changeMovesBackgroundColor.bind(this)}>Play it!</button>

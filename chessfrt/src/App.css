@@ -41,17 +41,16 @@
   border: solid 1px #000;
   height: 60px;
   width: 60px;
+  cursor: pointer;
 }
 
-.center-div {
-  margin: auto;
-  width: 50%;  
-  padding-bottom:70px;
+.left-div {
+  top:0px;
+  float: left;
+  padding-left:18px;  
 }
 
 .button-play-it {
   float: left;
-  margin-left:65px;
-  margin-top:20px;
-  margin-bottom:20px;
+  margin-bottom:16px;
 }

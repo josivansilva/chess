@@ -28,10 +28,10 @@ app.get('/chess/:position', (req, res) => {
     for (let i = 0 ; i < rows; i++) {        
         for (let j = 0; j < columns; j++) {
             if (position === chessboard[i][j]){
-                if (chessboard[i][j+1] != null) {
+                if (j <= 6) {
                     positionArr.push(chessboard[i][j+1]);
                 }
-                if (chessboard[i][j+2] != null) {
+                if (j <= 5) {
                     positionArr.push(chessboard[i][j+2]);
                 }
                 if (i <= 6) {
