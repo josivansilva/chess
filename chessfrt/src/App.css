@@ -46,8 +46,12 @@
 .center-div {
   margin: auto;
   width: 50%;  
+  padding-bottom:70px;
 }
 
-.square-selected {
-  background-color: red;
+.button-play-it {
+  float: left;
+  margin-left:65px;
+  margin-top:20px;
+  margin-bottom:20px;
 }

@@ -28,18 +28,21 @@ app.get('/chess/:position', (req, res) => {
     for (let i = 0 ; i < rows; i++) {        
         for (let j = 0; j < columns; j++) {
             if (position === chessboard[i][j]){
-                console.log('chessboard[i][j+1] ' + chessboard[i][j+1]);
-                console.log('chessboard[i][j+2] ' + chessboard[i][j+2]);
-                console.log('chessboard[i+1][j+2] ' + chessboard[i+1][j+2]);
-                console.log('chessboard[i+1][j] ' + chessboard[i+1][j]);
-                console.log('chessboard[i+2][j] ' + chessboard[i+2][j]);
-                console.log('chessboard[i+2][j+1] ' + chessboard[i+2][j+1]);
-                positionArr.push(chessboard[i][j+1]);
-                positionArr.push(chessboard[i][j+2]);
-                positionArr.push(chessboard[i+1][j+2]);
-                positionArr.push(chessboard[i+1][j]);
-                positionArr.push(chessboard[i+2][j]);
-                positionArr.push(chessboard[i+2][j+1]);
+                if (chessboard[i][j+1] != null) {
+                    positionArr.push(chessboard[i][j+1]);
+                }
+                if (chessboard[i][j+2] != null) {
+                    positionArr.push(chessboard[i][j+2]);
+                }
+                if (i <= 6) {
+                    positionArr.push(chessboard[i+1][j+2]);
+                    positionArr.push(chessboard[i+1][j]);
+                }                
+                if (i <= 5) {
+                    positionArr.push(chessboard[i+2][j]);
+                    positionArr.push(chessboard[i+2][j+1]);    
+                }
+                                
                 break outer;
             }
         }
