@@ -1,4 +1,4 @@
-# ChecomponentsReact# ChecomponentsReact App
+# Chess React App
 
 # Overview
 Chess is a two-player strategy board game played on a chessboard, a checkered game board
@@ -13,7 +13,7 @@ The Chess React App solution is organized into two applications. The first, call
 The chessApi file structure is organized as follows:
 
 /chessApi<br/>
-&nbsp;&nbsp;&nbsp;chess-api.js<br/>
+&nbsp;&nbsp;&nbsp;chess-api.js *<br/>
 &nbsp;&nbsp;&nbsp;package-lock.json<br/>
 &nbsp;&nbsp;&nbsp;package.json<br/>
   
