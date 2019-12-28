@@ -29,7 +29,8 @@ The chessfrt file structure is organized as follows:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;App.js *<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;App.test.js<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;index.css<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;index.js<br/>
+&nbsp;&nbsp;&nb
+sp;&nbsp;&nbsp;&nbsp;index.js<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;logo.svg<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;serviceWorker.js<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setupTests.js<br/>
@@ -42,6 +43,10 @@ The chessfrt file structure is organized as follows:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;logo512.png<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;manifest.json<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;robots.txt<br/>
+
+#Tests
+For the backend unit tests were performed using the Postman application.<br/>
+For the frontend, were performed manual unit tests using the Mozilla Firefox browser.<br/>
 
 
 
