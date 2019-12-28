@@ -64,7 +64,7 @@ For the front-end, were performed manual unit tests using the Mozilla Firefox br
 3. A outer loop is initiatized, representing the chesboard row (i) dimension<br/>
 4. A inner loop, inside the outer loop is initiatized, representing the chesboard column (j) dimension<br/>
 5. If the position is equal to the value of the chesboard array position chessboard[i][j], then the position was found<br/>
-6. In order to get the positions (saved on the positionArr) relative to the selected position, the values regarding to the chessboard[i][j] are manipulated, incrementing or decrementing the values of "i" and "j", for example:<br/><br/>
+6. In order to get the positions (saved on the positionArr) relative to the selected position, the value regarding to the chessboard[i][j] is manipulated, incrementing or decrementing the value of "i" and/or "j", for example:<br/><br/>
    //move 2 squares horizontally and 1 square vertically<br/>
    positionArr.push(chessboard[i][j+1]);<br/>
    positionArr.push(chessboard[i][j+2]);<br/>
