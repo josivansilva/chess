@@ -44,8 +44,8 @@ sp;&nbsp;&nbsp;&nbsp;index.js<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;manifest.json<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;robots.txt<br/>
 
-#Tests
-For the backend unit tests were performed using the Postman application.<br/>
+# Tests
+The backend unit tests were performed using the Postman tool.<br/>
 For the frontend, were performed manual unit tests using the Mozilla Firefox browser.<br/>
 
 
