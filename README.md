@@ -35,7 +35,9 @@ The chessfrt file structure is organized as follows:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setupTests.js<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;package-lock.json<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;package.json
-
+&nbsp;&nbsp;&nbsp;public<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;favicon.ico<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;favicon.ico<br/>
 
 
 
