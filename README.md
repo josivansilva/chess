@@ -59,3 +59,8 @@ For the front-end, were performed manual unit tests using the Mozilla Firefox br
 ['A6','B6','C6','D6','E6','F6','G6','H6'],<br/>
 ['A7','B7','C7','D7','E7','F7','G7','H7'],<br/>
 ['A8','B8','C8','D8','E8','F8','G8','H8']<br/>
+
+2. The user enter a position, for example 'A1'<br/>
+3. A outer loop is initiatized, representing the chesboard row (i) dimension<br/>
+4. A inner loop, inside the outer loop is initiatized, representing the column (j) dimension<br/>
+5. If the position is equal to the value of the chesboard array position chessboard[i][j], then the position was found
