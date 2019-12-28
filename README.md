@@ -23,10 +23,10 @@ The chessfrt file structure is organized as follows:
 /chessfrt<br/>
 &nbsp;&nbsp;&nbsp;src<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;components<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Board.js<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Square.js<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;App.css<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;App.js<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Board.js *<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Square.js *<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;App.css *<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;App.js *<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;App.test.js<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;index.css<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;index.js<br/>
