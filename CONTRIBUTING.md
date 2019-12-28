@@ -54,7 +54,3 @@ Code Debugging built in. In addition, it is highly extensible
 9. sudo dpkg -i code_1.26.0-1534177765_amd64.deb
 10. Close the terminal. Visual Studio Code is now installed
 
-
-7.  
-  
-
