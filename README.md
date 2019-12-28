@@ -34,10 +34,14 @@ The chessfrt file structure is organized as follows:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;serviceWorker.js<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setupTests.js<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;package-lock.json<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;package.json
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;package.json<br/>
 &nbsp;&nbsp;&nbsp;public<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;favicon.ico<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;favicon.ico<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;index.html<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;logo192.png<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;logo512.png<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;manifest.json<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;robots.txt<br/>
 
 
 
