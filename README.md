@@ -44,8 +44,8 @@ The chessfrt file structure is organized as follows:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;robots.txt<br/>
 
 # Tests
-The backend unit tests were performed using the Postman tool.<br/>
-For the frontend, were performed manual unit tests using the Mozilla Firefox browser.<br/>
+The back-end unit tests were performed using the Postman tool.<br/>
+For the front-end, were performed manual unit tests using the Mozilla Firefox browser.<br/>
 
 
 
