@@ -47,18 +47,18 @@ The chessfrt file structure is organized as follows:
 The back-end unit tests were performed using the Postman tool.<br/>
 For the front-end, were performed manual unit tests using the Mozilla Firefox browser.<br/>
 
-# Knight Movements Algorithm
+# Knight Movements Algorithm (Back-end)
 
 1. The multidimensional chessboard array is initialized with the following values:
 
-['A1','B1','C1','D1','E1','F1','G1','H1'],<br/>
-['A2','B2','C2','D2','E2','F2','G2','H2'],<br/>
-['A3','B3','C3','D3','E3','F3','G3','H3'],<br/>
-['A4','B4','C4','D4','E4','F4','G4','H4'],<br/>
-['A5','B5','C5','D5','E5','F5','G5','H5'],<br/>
-['A6','B6','C6','D6','E6','F6','G6','H6'],<br/>
-['A7','B7','C7','D7','E7','F7','G7','H7'],<br/>
-['A8','B8','C8','D8','E8','F8','G8','H8']<br/>
+&nbsp;&nbsp;&nbsp;['A1','B1','C1','D1','E1','F1','G1','H1'],<br/>
+&nbsp;&nbsp;&nbsp;['A2','B2','C2','D2','E2','F2','G2','H2'],<br/>
+&nbsp;&nbsp;&nbsp;['A3','B3','C3','D3','E3','F3','G3','H3'],<br/>
+&nbsp;&nbsp;&nbsp;['A4','B4','C4','D4','E4','F4','G4','H4'],<br/>
+&nbsp;&nbsp;&nbsp;['A5','B5','C5','D5','E5','F5','G5','H5'],<br/>
+&nbsp;&nbsp;&nbsp;['A6','B6','C6','D6','E6','F6','G6','H6'],<br/>
+&nbsp;&nbsp;&nbsp;['A7','B7','C7','D7','E7','F7','G7','H7'],<br/>
+&nbsp;&nbsp;&nbsp;['A8','B8','C8','D8','E8','F8','G8','H8']<br/>
 
 2. The user enter a position, for example 'A1'<br/>
 3. A outer loop is initiatized, representing the chesboard row (i) dimension<br/>
