@@ -9,4 +9,15 @@ vertically and 1 square horizontally.
 # Organization & Architecture
 The Chess React App solution is organized into two applications. The first, called "chessApi", which is a Node.js back-end application that provides a RESTful API service for calculating Knight positions on the board. The second application, called "chessfrt", is a React front-end application that provides the board interface, containing the cells that will be used to emulate the knight's movements.
 
+# chessApi (back-end) File Structure
+
+The chessApi file structure is organized as follows:
+
+/chessApi
+  chess-api.js
+  package-lock.json
+  package.json
+  
+
+
 
