@@ -41,8 +41,20 @@ This documentation describes the environment details used to work with the Chess
 3. You should respond "Y" if you wish change the app port to 3001
 4. Access the app on the address http://localhost:3001
 
+# Visual Studio Code (Ubuntu Linux)
+1. Visual Studio Code is a free code editor from Microsoft. It has Intellisense and
+Code Debugging built in. In addition, it is highly extensible
+2. Next, open your browser and go to the Visual Studio Code download page
+3. https://code.visualstudio.com/Download
+4. Click on the .deb link for Linux 64 Bit
+5. If prompted, click on Save File
+6. After the file downloads, open your terminal and go to the Downloads folder
+7. cd ~/Downloads
+8. Next, run this command to install Visual Studio Code
+9. sudo dpkg -i code_1.26.0-1534177765_amd64.deb
+10. Close the terminal. Visual Studio Code is now installed
 
 
-#Visual Studio Code 
+7.  
   
 
