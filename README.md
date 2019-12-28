@@ -69,5 +69,6 @@ For the front-end, were performed manual unit tests using the Mozilla Firefox br
    positionArr.push(chessboard[i][j+1]);<br/>
    positionArr.push(chessboard[i][j+2]);<br/>
    positionArr.push(chessboard[i+1][j+2]);<br/><br/>
- 7. The algorithm saves 6 positions, moving either 2 squares horizontally and 1 square vertically OR 2 squares
-vertically and 1 square horizontally<br/>
+7. The algorithm saves 6 positions, moving either 2 squares horizontally and 1 square vertically (3 positions) OR 2 squares
+vertically and 1 square horizontally (3 positions)<br/>
+8. The new positions (positionArr) are returned to the front-end
