@@ -1,4 +1,4 @@
-# Chess React App
+# ChecomponentsReact# ChecomponentsReact App
 
 # Overview
 Chess is a two-player strategy board game played on a chessboard, a checkered game board
@@ -10,7 +10,6 @@ vertically and 1 square horizontally.
 The Chess React App solution is organized into two applications. The first, called "chessApi", which is a Node.js back-end application that provides a RESTful API service for calculating Knight positions on the board. The second application, called "chessfrt", is a React front-end application that provides the board interface, containing the cells that will be used to emulate the knight's movements.
 
 # chessApi (back-end) File Structure
-
 The chessApi file structure is organized as follows:
 
 /chessApi<br/>
@@ -18,6 +17,26 @@ The chessApi file structure is organized as follows:
 &nbsp;&nbsp;&nbsp;package-lock.json<br/>
 &nbsp;&nbsp;&nbsp;package.json<br/>
   
+# chessfrt (front-end) File Structure
+The chessfrt file structure is organized as follows:
+
+/chessfrt<br/>
+&nbsp;&nbsp;&nbsp;src<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;components<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Board.js<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Square.js<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;App.css<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;App.js<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;App.test.js<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;index.css<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;index.js<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;logo.svg<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;serviceWorker.js<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setupTests.js<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;package-lock.json<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;package.json
+
+
 
 
 
