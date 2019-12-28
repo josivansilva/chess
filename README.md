@@ -14,9 +14,9 @@ The Chess React App solution is organized into two applications. The first, call
 The chessApi file structure is organized as follows:
 
 /chessApi<br/>
-  chess-api.js<br/>
-  package-lock.json<br/>
-  package.json<br/>
+&nbsp;&nbsp;chess-api.js<br/>
+&nbsp;&nbsp;package-lock.json<br/>
+&nbsp;&nbsp;package.json<br/>
   
 
 
