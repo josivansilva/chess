@@ -54,3 +54,15 @@ Code Debugging built in. In addition, it is highly extensible
 9. sudo dpkg -i code_1.26.0-1534177765_amd64.deb
 10. Close the terminal. Visual Studio Code is now installed
 
+# Postman (Ubuntu Linux)
+
+1. Postman is the complete toolchain for API developers, used by more than 3 million 
+developers and 30000 companies worldwide. Postman makes working with APIs faster and
+easier by supporting developers at every stage of their workflow, and is available 
+for Mac OS X, Windows, Linux and Chrome users.
+2. Ubuntu Software utility contains the snap packages from snappy store. Simply search 
+for and click install Postman in Ubuntu Software
+3. Or open terminal (Ctrl+Alt+T) and run command to install the Postman snap package:
+4. snap install postman
+5. Once the snap package is installed, launch the Postman app from software launcher
+
