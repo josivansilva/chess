@@ -76,13 +76,13 @@ class Board extends React.Component {
       return (
 
         <div className="left-div">
-          <div className="row">
-            <div className="col">
-              <button className="btn btn-primary button-play-it" type="button" onClick={this.changeMovesBackgroundColor.bind(this)}>Play it!</button>
+          <div>
+            <div>
+              <button className="button-play-it" type="button" onClick={this.changeMovesBackgroundColor.bind(this)}>Play it!</button>
             </div>
           </div>
-          <div className="row">
-            <div className="col">
+          <div>
+            <div className="left-inner-div">
               <table align="center">
                 <thead></thead>
                 <tbody>              

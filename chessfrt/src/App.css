@@ -47,10 +47,17 @@
 .left-div {
   top:0px;
   float: left;
-  padding-left:18px;  
+  margin-left:18px;  
 }
 
 .button-play-it {
   float: left;
   margin-bottom:16px;
+  margin-top: 5px;
+}
+
+.left-inner-div {
+  float: left;
+  margin-bottom:15px;
+  border: solid 2px;
 }
